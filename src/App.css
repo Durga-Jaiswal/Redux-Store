@@ -1,0 +1,217 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    /* border: 1px solid sienna; */
+} 
+body{
+    background-color: #f1f5f9;
+    color:#334155;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.navbar{
+
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1rem;
+}
+.logo-icon{
+   
+    font-size:4.5rem;
+}
+.icon{
+    display:inline-block;
+    margin:0 .5rem;
+    font-size:2rem;
+}
+.lightMode-icon{
+    font-size:3rem;
+    margin:0 1rem;
+    cursor:pointer;
+}
+.logo{
+    font-size: 4rem;
+    margin-left: 1rem;
+    cursor:pointer;
+    border-bottom: 5px solid #334155;
+    display:flex;
+    align-items: center;
+}
+.link{
+    font-size:1.5rem;  
+    font-family:'Trebuchet MS', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items:baseline;
+}
+.cart-item{
+    margin:0 2rem;
+    font-size:2rem;
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+
+}
+.link-home, .link-cart, .link-todo{
+    display:flex;
+    align-items: center;
+    color:#334155;
+    margin:0 1rem;
+    
+}
+.link-home:hover, .link-cart:hover, .link-todo:hover {
+    color:#5c5b5b;
+}
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width:400px;
+    height:450px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:1rem;
+    padding:.5rem;
+    border:2px solid #334155;
+    border-radius:12px;
+    background-color:#e2e8f0;
+}
+.card img{
+   align-self: center;
+    height:200px;
+}
+.project-details{
+    text-align:center;
+    border-top:2px solid #334155;
+    padding:.5rem 0 0 0;
+}
+.project-details h3{
+    font-size:1.5rem;
+}
+.btn{
+    padding:1rem 2rem;
+    margin:.5rem 0;
+    font-size:1.2rem;
+    background-color: #334155;
+    color:#e2e8f0;
+    border:2px solid #334155;
+    border-radius: 32px;
+    font-weight:bold;
+    cursor:pointer;
+
+}
+.btn:hover{
+    background-color: #e2e8f0;
+    color:#334155;
+    border:2px solid #334155;
+}
+.loading-state{
+    
+    min-width:100vw;
+    min-height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:4rem;
+
+}
+.cart-title{
+    border-bottom: 2px solid #334155;
+}
+
+.cart-title, .todo-title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 1rem 0;
+    padding:1rem 2rem;
+    
+}
+.todo-container {
+    display:flex;
+    justify-content: center;
+    min-width: 400px;
+   
+}
+.todo-container input{
+    padding: 1.5rem 1rem;
+    width:35%;
+    font-size:1.4rem;
+    background-color: #e2e8f0;
+    color:#334155;
+    font-family: 'Trebuchet MS',  sans-serif;
+    border-radius: 12px 0 0 12px;
+    border-color:#334155;
+}
+.todo-container input:active{
+    border-color: #334155;
+}
+.todo-container > button{
+    padding:.5rem 2.5rem;
+    font-size:1.2rem;
+    background-color: #334155;
+    color:#e2e8f0;
+    font-family: 'Trebuchet MS',  sans-serif;
+    font-weight: 800;
+    border-radius: 0 12px 12px 0;
+    cursor:pointer;
+}
+.todo-container button:hover{
+    background-color: #e2e8f0;
+    color:#334155;
+}
+.todo-box{
+    display:flex;
+    width:42%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin:auto;
+
+}
+
+ .list-item{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width:100%;
+    font-size:1.4rem;
+    background-color: #e2e8f0;
+    color:#334155;
+    font-family: 'Trebuchet MS',  sans-serif;
+    border-radius: 12px;
+    border-color:#334155;
+    margin:.5rem 0;
+    
+}
+.cross-btn{
+    border:none;
+    outline:none;
+}
+.cross-icon{
+    background-color: #e2e8f0;
+    color:#334155;
+    font-size:2rem;
+    /* border-radius: 50%; */
+    display:block;
+    outline:none;
+    border:none;
+}
+.No-todos-text{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 3rem;
+    margin:2rem auto;
+}
