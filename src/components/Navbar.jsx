@@ -20,10 +20,10 @@ function Navbar() {
             <div className="link">
                 <Link to="/" className="link-home" ><FaHome className="icon"/>Home</Link>
                 <Link to="/cart" className="link-cart"><FaCartShopping className="icon"/>Cart</Link>
-                <Link to="/todo" className="link-todo"><LuListTodo className="icon"/>ToDo</Link>
+                {/* <Link to="/todo" className="link-todo"><LuListTodo className="icon"/>ToDo</Link> */}
             </div>
             {items && <span className="cart-item"><FaShoppingBag className="icon"/>Cart Items: {items.length}</span>}
-            <div><MdLightMode className="lightMode-icon"/></div>
+            {/* <div><MdLightMode className="lightMode-icon"/></div> */}
             {/* <MdDarkMode/> */}
         </div>
       </>

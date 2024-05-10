@@ -24,7 +24,7 @@ body{
 }
 .logo-icon{
    
-    font-size:4.5rem;
+    font-size:2.5rem;
 }
 .icon{
     display:inline-block;
@@ -37,7 +37,7 @@ body{
     cursor:pointer;
 }
 .logo{
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-left: 1rem;
     cursor:pointer;
     border-bottom: 5px solid #334155;
